@@ -7,7 +7,7 @@ terraform {
     }
   }
   backend "azurerm" {
-    storage_account_name = "mckennrgithubactions"
+    storage_account_name = "setogithubactions"
     container_name       = "tfstate"
     key                  = "prod.app.tfstate"
     use_oidc             = true
