@@ -1,0 +1,24 @@
+2025-03-31T18:39:15.388-0400 [INFO]  Terraform version: 1.11.2
+2025-03-31T18:39:15.389-0400 [DEBUG] using github.com/hashicorp/go-tfe v1.70.0
+2025-03-31T18:39:15.389-0400 [DEBUG] using github.com/hashicorp/hcl/v2 v2.23.0
+2025-03-31T18:39:15.389-0400 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2025-03-31T18:39:15.389-0400 [DEBUG] using github.com/zclconf/go-cty v1.16.0
+2025-03-31T18:39:15.389-0400 [INFO]  Go runtime version: go1.23.3
+2025-03-31T18:39:15.389-0400 [INFO]  CLI args: []string{"terraform", "init", "-upgrade"}
+2025-03-31T18:39:15.389-0400 [DEBUG] Attempting to open CLI config file: /home/setosta/.terraformrc
+2025-03-31T18:39:15.389-0400 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-03-31T18:39:15.389-0400 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-03-31T18:39:15.389-0400 [DEBUG] ignoring non-existing provider search directory /home/setosta/.terraform.d/plugins
+2025-03-31T18:39:15.389-0400 [DEBUG] ignoring non-existing provider search directory /home/setosta/.local/share/terraform/plugins
+2025-03-31T18:39:15.389-0400 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2025-03-31T18:39:15.389-0400 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2025-03-31T18:39:15.389-0400 [DEBUG] ignoring non-existing provider search directory /var/lib/snapd/desktop/terraform/plugins
+2025-03-31T18:39:15.389-0400 [INFO]  CLI command args: []string{"init", "-upgrade"}
+2025-03-31T18:39:15.389-0400 [DEBUG] checking for provisioner in "."
+2025-03-31T18:39:15.390-0400 [DEBUG] checking for provisioner in "/usr/bin"
+2025-03-31T18:39:15.391-0400 [DEBUG] Service discovery for registry.terraform.io at https://registry.terraform.io/.well-known/terraform.json
+2025-03-31T18:39:15.501-0400 [DEBUG] GET https://registry.terraform.io/v1/providers/hashicorp/azurerm/versions
+2025-03-31T18:39:15.542-0400 [DEBUG] GET https://registry.terraform.io/v1/providers/hashicorp/azurerm/3.117.1/download/linux/amd64
+2025-03-31T18:39:15.587-0400 [DEBUG] GET https://releases.hashicorp.com/terraform-provider-azurerm/3.117.1/terraform-provider-azurerm_3.117.1_SHA256SUMS
+2025-03-31T18:39:15.651-0400 [DEBUG] GET https://releases.hashicorp.com/terraform-provider-azurerm/3.117.1/terraform-provider-azurerm_3.117.1_SHA256SUMS.72D7468F.sig
+2025-03-31T18:39:16.306-0400 [DEBUG] Provider signed by 34365D9472D7468F HashiCorp Security (hashicorp.com/security) <security@hashicorp.com>

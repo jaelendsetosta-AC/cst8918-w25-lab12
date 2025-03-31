@@ -1,0 +1,24 @@
+2025-03-31T18:38:49.736-0400 [INFO]  Terraform version: 1.11.2
+2025-03-31T18:38:49.736-0400 [DEBUG] using github.com/hashicorp/go-tfe v1.70.0
+2025-03-31T18:38:49.736-0400 [DEBUG] using github.com/hashicorp/hcl/v2 v2.23.0
+2025-03-31T18:38:49.736-0400 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2025-03-31T18:38:49.736-0400 [DEBUG] using github.com/zclconf/go-cty v1.16.0
+2025-03-31T18:38:49.736-0400 [INFO]  Go runtime version: go1.23.3
+2025-03-31T18:38:49.736-0400 [INFO]  CLI args: []string{"terraform", "init", "-upgrade"}
+2025-03-31T18:38:49.736-0400 [DEBUG] Attempting to open CLI config file: /home/setosta/.terraformrc
+2025-03-31T18:38:49.736-0400 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-03-31T18:38:49.736-0400 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-03-31T18:38:49.736-0400 [DEBUG] ignoring non-existing provider search directory /home/setosta/.terraform.d/plugins
+2025-03-31T18:38:49.736-0400 [DEBUG] ignoring non-existing provider search directory /home/setosta/.local/share/terraform/plugins
+2025-03-31T18:38:49.736-0400 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2025-03-31T18:38:49.736-0400 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2025-03-31T18:38:49.736-0400 [DEBUG] ignoring non-existing provider search directory /var/lib/snapd/desktop/terraform/plugins
+2025-03-31T18:38:49.736-0400 [INFO]  CLI command args: []string{"init", "-upgrade"}
+2025-03-31T18:38:49.737-0400 [DEBUG] checking for provisioner in "."
+2025-03-31T18:38:49.738-0400 [DEBUG] checking for provisioner in "/usr/bin"
+2025-03-31T18:38:49.738-0400 [DEBUG] Configuring built-in cloud environment by name: "public"
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mOne of `access_key`, `sas_token`, `use_azuread_auth` and `resource_group_name` must be specifieid[0m
+[31m│[0m [0m
+[31m│[0m [0m[0m
+[31m╵[0m[0m
